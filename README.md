@@ -2,7 +2,7 @@
 - Find the ids for all recipes on the /recipes page
 - Navigate and get information from /recipies/[id]/page
 
-Notes about Code:
+# Notes about Code:
 - BeautifulSoup needs to be used as it takes the html page and turns it into a python object which we can navigate and use
 
 - print(res) throughout the process to ensure that the code is operating properly, it should say "<Response [200]>
@@ -18,7 +18,7 @@ ing_header.next_sibling.find_all("span", attrs={"class":"text-[#4e342e] font-med
 - We cant use Divs as it is a placeholder
 - We use find.all to get all the ingredients of all the recipes on the website 
 
-To Run Code:
+# To Run Code:
 1. Make sure Python is downloaded
 2. Create Virtual Environment
 - python -m venv venv
@@ -26,6 +26,6 @@ To Run Code:
 3. Installing dependencies
 - pip install requests beautifulsoup4
 
-If Permission is denied:
+# If Permission is denied:
 1. Make sure you are in directory that you are allowed to make folders in
 2. If still doesnt work then use set-executionpolicy remotesigned
